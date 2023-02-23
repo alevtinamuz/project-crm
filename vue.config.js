@@ -1,5 +1,5 @@
 module.exports = {
-  project-crm: process.env.NODE_ENV === 'production'
-    ? '/my-project/'
+  publicPath: process.env.NODE_ENV === 'production'
+    ? '/project-crm/'
     : '/'
 }
