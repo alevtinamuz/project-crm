@@ -1,4 +1,3 @@
-@@ -1,24 +1 @@
 # project-crm
 
 ## Project setup
