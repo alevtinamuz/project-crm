@@ -8,7 +8,7 @@
       </main>
       <div class="fixed-action-btn">
           <a class="btn-floating btn-large deep-orange lighten-2" href="#">
-              <i class="large material-icons">add</i>
+            <router-link to="/upload"><i class="large material-icons">add</i></router-link>
           </a>
       </div>
   </div>

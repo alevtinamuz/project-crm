@@ -1,0 +1,70 @@
+{
+  "books": [
+    {
+      "id": "122455",
+      "id_company": "1",
+      "title": "Book 1",
+      "description": "the best book",
+      "year": "1888",
+      "image_link": "1.jpg",
+      "ISBN": "82131931",
+      "number_page": "374",
+      "genre": "Fantasy"
+    },
+    {
+      "id": "131310",
+      "id_company": "4",
+      "title": "Book 2",
+      "description": "The worst book",
+      "year": "1933",
+      "image_link": "2.jpg",
+      "ISBN": "913013",
+      "number_page": "121",
+      "genre": "Novel"
+    },
+    {
+      "id": "30919039013",
+      "id_company": "3",
+      "title": "Book 3",
+      "description": "Normal book",
+      "year": "1234",
+      "image_link": "3.jpg",
+      "ISBN": "103131313",
+      "number_page": "439",
+      "genre": "Horror"
+    },
+    {
+      "id": "234677321",
+      "id_company": "4",
+      "title": "Book 4",
+      "description": "GG book",
+      "year": "1911",
+      "image_link": "4.jpg",
+      "ISBN": "2103013",
+      "number_page": "754",
+      "genre": "Comedy"
+    },
+    {
+      "id": "913910",
+      "id_company": "5",
+      "title": "Book 5",
+      "description": "WP book",
+      "year": "1837",
+      "image_link": "5.jpg",
+      "ISBN": "310310318876",
+      "number_page": "654",
+      "genre": "Fantasy"
+    },
+    {
+      "id": "193103013",
+      "id_company": "6",
+      "title": "Book 6",
+      "description": "Horror book",
+      "year": "1798",
+      "image_link": "6.jpg",
+      "ISBN": "29013901",
+      "number_page": "876",
+      "genre": "Horror"
+    }
+  ]
+}

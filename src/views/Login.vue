@@ -63,9 +63,9 @@ export default {
   }
 }
   
-  </script>
+</script>
   
-  <style>
+<style>
   .name{
     font-family: 'Playfair Display';
     font-size: 32px;
@@ -78,7 +78,7 @@ export default {
       box-sizing: border-box;
   }
   body {
-      font-family: 'Nunito', sans-serif;    
+      font-family: 'Roboto', sans-serif;    
       color: rgba(254, 214, 152, 0.47);
   }
   form {    
@@ -99,56 +99,56 @@ export default {
   input[type="tel"],input[type="url"],
   input[type="file"],textarea,
   select {
-      background: rgba(254, 214, 152, 0.47);
-      border: none;    
-      font-size: 16px;
-      height: auto;
-      margin: 0;    
-      outline: 0;
-      padding: 15px;   
-      width: 100%;
-      background-color: #e8eeef;    
-      color: rgba(68, 67, 67, 0.47);;
-      box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;    
-      margin-bottom: 10px;
+    background: rgba(254, 214, 152, 0.47);
+    border: none;    
+    font-size: 16px;
+    height: auto;
+    margin: 0;    
+    outline: 0;
+    padding: 15px;   
+    width: 100%;
+    background-color: #e8eeef;    
+    color: rgba(68, 67, 67, 0.47);;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;    
+    margin-bottom: 10px;
   }
   select {
-      padding: 6px;    
-      height: 32px;
-      border-radius: 2px;}
-  
+    padding: 6px;    
+    height: 32px;
+    border-radius: 2px;
+  }
   button {    
-      padding: 19px 39px 18px 39px;
-      color: #FFF;    
-      background: #B7647C;
-      font-size: 18px;    
-      text-align: center;
-      font-style: normal;    
-      border-radius: 5px;
-      width: 100%;    
-      border-width: 1px 1px 3px;
-      box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;    
-      margin-bottom: 10px;
+    padding: 19px 39px 18px 39px;
+    color: #FFF;    
+    background: #B7647C;
+    font-size: 18px;    
+    text-align: center;
+    font-style: normal;    
+    border-radius: 5px;
+    width: 100%;    
+    border-width: 1px 1px 3px;
+    box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;    
+    margin-bottom: 10px;
   }
   fieldset {    
-      margin-bottom: 10px;
-      border: none;
+    margin-bottom: 10px;
+    border: none;
   }
   legend {
-      font-size: 1.4em;    
-      margin-bottom: 10px;
+    font-size: 1.4em;    
+    margin-bottom: 10px;
   }
   label {    
-      display: block;
-      margin-bottom: 8px;
+    display: block;
+    margin-bottom: 8px;
   }
   label.light {
-      font-weight: 300;    
-      display: inline;
+    font-weight: 300;    
+    display: inline;
   }
   @media screen and (min-width: 480px) {
-      form {
-          max-width: 480px;    
-      }
+    form {
+      max-width: 480px;    
+    }
   }
-  </style>
+</style>

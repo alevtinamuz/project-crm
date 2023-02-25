@@ -9,16 +9,18 @@
 <script>
 import EmptyLayout from '@/layouts/EmptyLayout.vue';
 import MainLayout from '@/layouts/MainLayout.vue';
+import SpecialLayout from './layouts/SpecialLayout.vue';
 
 export default {
   computed: {
     layout() {
-      return (this.$route.meta.layout || 'empty') + '-layout'
+      return (this.$route.meta.layout || 'empty' || 'special') + '-layout'
     }
   },
   components: {
     EmptyLayout,
-    MainLayout
+    MainLayout,
+    SpecialLayout
   }
 }
 

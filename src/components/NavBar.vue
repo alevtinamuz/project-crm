@@ -19,7 +19,7 @@ export default {
                 style: "font-size: 20px; font-family: Roboto;"
             },
             {
-                label: 'Личный кабинет',
+                label: 'Профиль',
                 icon: 'pi pi-user',
                 to: '/profile',
                 style: "font-size: 20px; font-family: Roboto;"

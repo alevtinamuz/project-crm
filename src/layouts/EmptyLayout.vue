@@ -1,16 +1,29 @@
 <template>
-    <div class="grey darken-1 empty-layout">
-        <router-view/>
+    <div>
+      <nav-bar/>
+        <main class="app-content" :class="{full: true}">
+            <div class="app-page">
+                <router-view/>
+            </div>
+        </main>
     </div>
-</template>
-
-<script>
-
-export default {
-
-}
-</script>
-
-<style lang="scss">
-
-</style>
+  </template>
+  
+  <script>
+  import NavBar from '@/components/NavBar.vue';
+  
+  export default {
+      name: 'empty-layout',
+      components: {
+          NavBar
+      }
+  }
+  </script>
+  
+  <style lang="scss">
+  
+  .app-content {
+      background: #f9e7c9;
+  }
+  
+  </style>

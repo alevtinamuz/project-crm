@@ -4,13 +4,13 @@ const routes = [
   {
     path: '/login',
     name: 'login',
-    meta: {layout: 'main'},
+    meta: {layout: 'empty'},
     component: () => import('../views/Login.vue')
   },
   {
     path: '/register',
     name: 'register',
-    meta: {layout: 'main'},
+    meta: {layout: 'empty'},
     component: () => import('../views/Register.vue')
   },
   {
@@ -20,39 +20,15 @@ const routes = [
     component: () => import('../views/Catalog.vue')
   },
   {
-    path: '/detail/:id',
-    name: 'detail',
-    meta: {layout: 'main'},
-    component: () => import('../views/Details.vue')
-  },
-  {
-    path: '/history',
-    name: 'history',
-    meta: {layout: 'main'},
-    component: () => import('../views/History.vue')
-  },
-  {
-    path: '/planning',
-    name: 'planning',
-    meta: {layout: 'main'},
-    component: () => import('../views/Planning.vue')
-  },
-  {
     path: '/profile',
     name: 'profile',
-    meta: {layout: 'main'},
+    meta: {layout: 'special'},
     component: () => import('../views/Profile.vue')
-  },
-  {
-    path: '/record',
-    name: 'record',
-    meta: {layout: 'main'},
-    component: () => import('../views/Record.vue')
   },
   {
     path: '/upload',
     name: 'upload',
-    meta: {layout: 'main'},
+    meta: {layout: 'empty'},
     component: () => import('../views/UploadBooks.vue')
   }
 ]
