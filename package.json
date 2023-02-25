@@ -6,7 +6,11 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
+<<<<<<< HEAD
     "deploy": "sh deploy.sh"
+=======
+    "deploy": "deploy.sh"
+>>>>>>> 54e78a5db68ff2bb9b08901ded3876d090710e8d
   },
   "dependencies": {
     "@mdi/font": "^7.1.96",

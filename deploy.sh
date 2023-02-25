@@ -22,4 +22,8 @@ git commit -m 'deploy'
 # если вы публикуете по адресу https://<USERNAME>.github.io/<REPO>
 git push -f git@github.com:alevtinamuz/project-crm.git master:gh-pages
 
+<<<<<<< HEAD
 cd -
+=======
+cd -
+>>>>>>> 54e78a5db68ff2bb9b08901ded3876d090710e8d
