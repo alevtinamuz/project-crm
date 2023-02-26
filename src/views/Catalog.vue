@@ -31,11 +31,11 @@ import {mapActions, mapGetters} from 'vuex';
         },
         methods: {
             ...mapActions([
-                'GET_BOOKS_FROM_API'
+                'GET_BOOKS'
             ])
         },
         mounted() {
-            this.GET_BOOKS_FROM_API()
+            this.GET_BOOKS()
             .then((response) => {
                 if (response.data) {
                     console.log('The download is finished.')

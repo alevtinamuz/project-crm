@@ -27,7 +27,7 @@ export default {
             {
                 label: 'Выход',
                 icon: 'pi pi-sign-out',
-                to: '/login',
+                to: '/',
                 style: "font-size: 20px; font-family: Roboto;"
             }
             ]

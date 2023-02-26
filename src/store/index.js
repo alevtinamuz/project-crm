@@ -1,22 +1,24 @@
 import Vuex from 'vuex'
 import axios from 'axios'
 
+const link = 'http://localhost:3000/books';
+
 let store = new Vuex.Store({
     state: {
         books: []
     },
     mutations: {
-        SET_BOOKS_TO_STATE: (state, books) => {
+        SET_BOOKS: (state, books) => {
             state.books = books;
         }
     },
     actions: {
-        GET_BOOKS_FROM_API({commit}) {
-            return axios('http://localhost:3000/books', {
+        GET_BOOKS({commit}) {
+            return axios(link, {
                 method: "GET"
             })
                 .then((books) => {
-                    commit('SET_BOOKS_TO_STATE', books.data);
+                    commit('SET_BOOKS', books.data);
                     return books;
                 })
                 .catch((error) => {

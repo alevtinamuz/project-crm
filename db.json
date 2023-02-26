@@ -6,7 +6,7 @@
       "title": "Book 1",
       "description": "the best book",
       "year": "1888",
-      "image_link": "1.jpg",
+      "image_link": "https://s3-goods.ozstatic.by/2000/535/219/10/10219535_0.jpg",
       "ISBN": "82131931",
       "number_page": "374",
       "genre": "Fantasy"
@@ -17,7 +17,7 @@
       "title": "Book 2",
       "description": "The worst book",
       "year": "1933",
-      "image_link": "2.jpg",
+      "image_link": "https://s3-goods.ozstatic.by/2000/535/219/10/10219535_0.jpg",
       "ISBN": "913013",
       "number_page": "121",
       "genre": "Novel"
@@ -28,7 +28,7 @@
       "title": "Book 3",
       "description": "Normal book",
       "year": "1234",
-      "image_link": "3.jpg",
+      "image_link": "https://s3-goods.ozstatic.by/2000/535/219/10/10219535_0.jpg",
       "ISBN": "103131313",
       "number_page": "439",
       "genre": "Horror"
@@ -39,7 +39,7 @@
       "title": "Book 4",
       "description": "GG book",
       "year": "1911",
-      "image_link": "4.jpg",
+      "image_link": "https://s3-goods.ozstatic.by/2000/535/219/10/10219535_0.jpg",
       "ISBN": "2103013",
       "number_page": "754",
       "genre": "Comedy"
@@ -50,7 +50,7 @@
       "title": "Book 5",
       "description": "WP book",
       "year": "1837",
-      "image_link": "5.jpg",
+      "image_link": "https://s3-goods.ozstatic.by/2000/535/219/10/10219535_0.jpg",
       "ISBN": "310310318876",
       "number_page": "654",
       "genre": "Fantasy"
@@ -61,10 +61,65 @@
       "title": "Book 6",
       "description": "Horror book",
       "year": "1798",
-      "image_link": "6.jpg",
+      "image_link": "https://s3-goods.ozstatic.by/2000/535/219/10/10219535_0.jpg",
       "ISBN": "29013901",
       "number_page": "876",
       "genre": "Horror"
+    },
+    {
+      "id": "12425",
+      "id_company": "1",
+      "title": "Book 7",
+      "description": "the best book",
+      "year": "1888",
+      "image_link": "https://s3-goods.ozstatic.by/2000/535/219/10/10219535_0.jpg",
+      "ISBN": "82131931",
+      "number_page": "374",
+      "genre": "Fantasy"
+    },
+    {
+      "id": "1201315",
+      "id_company": "1",
+      "title": "Book 8",
+      "description": "the best book",
+      "year": "1888",
+      "image_link": "https://s3-goods.ozstatic.by/2000/535/219/10/10219535_0.jpg",
+      "ISBN": "82131931",
+      "number_page": "374",
+      "genre": "Fantasy"
+    },
+    {
+      "id": "12010005",
+      "id_company": "1",
+      "title": "Book 9",
+      "description": "the best book",
+      "year": "1888",
+      "image_link": "https://s3-goods.ozstatic.by/2000/535/219/10/10219535_0.jpg",
+      "ISBN": "82131931",
+      "number_page": "374",
+      "genre": "Fantasy"
+    },
+    {
+      "id": "2455",
+      "id_company": "1",
+      "title": "Book 10",
+      "description": "the best book",
+      "year": "1888",
+      "image_link": "https://s3-goods.ozstatic.by/2000/535/219/10/10219535_0.jpg",
+      "ISBN": "82131931",
+      "number_page": "374",
+      "genre": "Fantasy"
+    },
+    {
+      "id": "195",
+      "id_company": "1",
+      "title": "Book 11",
+      "description": "the best book",
+      "year": "1888",
+      "image_link": "https://s3-goods.ozstatic.by/2000/535/219/10/10219535_0.jpg",
+      "ISBN": "82131931",
+      "number_page": "374",
+      "genre": "Fantasy"
     }
   ]
 }
