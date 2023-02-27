@@ -16,9 +16,8 @@
                 <p>Жанр: {{ book_data.genre }}</p>
             </div>
         </BookPage>
-        <img class="CatalogBook-image" :src="book_data.image_link" alt="img-book">
+        <img class="CatalogBook-image" @click="showInfo" :src="book_data.image_link" alt="img-book">
         <tittle class="CatalogBook-title">{{ book_data.title }}</tittle>
-        <button @click="showInfo">Информация о книге</button>
     </div>
 </template>
   

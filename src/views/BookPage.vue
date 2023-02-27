@@ -4,7 +4,7 @@
         <div class="BookPage-header">
             <span>
                 <i 
-                class="material-icons"
+                class="material-icons text-black"
                 @click="closeBookPage"
                 >close
                 </i>
@@ -46,15 +46,21 @@ export default {
     left: 0;
     top: 0;
     bottom: 0;
+    position: fixed;
+    overflow: hidden;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    flex-flow: column nowrap;
 }
 .BookPage {
-    padding: 16px;
+    padding: 40px;
     position: fixed;
     top: 100px;
-    width: 500px;
+    width: 700px;
+    height: 500px;
     background: #fff;
     box-shadow: 0 0 17px 0 #e7e7e7;
-    z-index: 10;
+    z-index: 99;
     &-header, &-footer {
         display: flex;
         justify-content: space-between;
